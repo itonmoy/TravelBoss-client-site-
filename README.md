@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# TravelBoss a travel related website (client site codes )
+live link:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## The key Features of this website 
+- A user can book travel destination
+- user can add his travel destination
+- user can modify his choices by delteing his previous choice 
+- user can perform add their travel information by this site 
+- this is a complete travel site for all travellers.
 
 In the project directory, you can run:
 
