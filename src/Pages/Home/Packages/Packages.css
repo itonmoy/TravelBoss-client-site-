@@ -1,0 +1,27 @@
+#packages h2{
+    text-transform: uppercase;
+}
+.choose-plan{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.single-plan{
+    background-color: rgb(101, 150, 101);
+    border: 1px solid rgb(180, 130, 130);
+    margin: 3px;
+}
+.single-plan h4{
+    color: whitesmoke;
+}
+
+/*  responsive */
+@media only screen and (max-width:688px) {
+    .choose-plan{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .choose-plan{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

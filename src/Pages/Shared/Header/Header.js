@@ -19,7 +19,9 @@ const {user, logOut} =useAuth();
               Signed in as: <a href="#login">{user?.displayName}</a>
           </Navbar.Text>
           <Nav.Link as={Link} to="/home#home">Home</Nav.Link>
-          <Nav.Link as={Link} to="/home#features">Features</Nav.Link>
+          <Nav.Link as={Link} to="/home#packages">packages</Nav.Link>
+          <Nav.Link as={Link} to="/addService">Add Service</Nav.Link>
+          <Nav.Link as={Link} to="/manageServices">Manage-Services</Nav.Link>
           {user?.email ?
           <Button onClick={logOut} variant="light">Logout</Button> :
           <Nav.Link as={Link} to="/login">Login</Nav.Link>}    
